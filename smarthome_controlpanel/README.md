@@ -1,16 +1,51 @@
-# smarthome_controlpanel
+# 🏠 SmartHome Control
 
-A new Flutter project.
+A colorful and modern Flutter app for managing smart home devices room by room.  
+Each room expands to show its devices, which can be toggled **ON/OFF** with smooth Material transitions.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+**6 Smart Rooms**
+- Living Room  
+- Bedroom  
+- Kitchen  
+- Bathroom  
+- Garage  
+- Home Office  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Device Controls**
+- Toggle each smart device on or off using interactive switches.  
+- Each room has multiple devices (lights, AC, fans, appliances, etc.).  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Modular Architecture**
+- Reusable `RoomTile` widget.  
+- Clean separation of UI and logic.
+
+---
+
+
+## Installation
+
+### Requirements
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) (v3.x or newer)  
+- Dart (latest stable)  
+- Android Studio or VS Code  
+
+### Run the App
+
+```bash
+# Clone the repository
+https://github.com/Akhigbesimeon/Smart-Home-Control-Panel.git
+
+# Navigate to the project directory
+cd Smart-Home-Control-Panel
+
+# Get Flutter dependencies
+flutter pub get
+
+# Run on connected device or emulator
+flutter run
+
+
