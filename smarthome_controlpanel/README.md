@@ -1,13 +1,11 @@
-# 🏠 SmartHome Control
+# SmartHome Control
 
 A colorful and modern Flutter app for managing smart home devices room by room.  
-Each room expands to show its devices, which can be toggled **ON/OFF** with smooth Material transitions.
-
 ---
 
 ## Features
 
-**6 Smart Rooms**
+**Smart Rooms**
 - Living Room  
 - Bedroom  
 - Kitchen  
@@ -24,7 +22,6 @@ Each room expands to show its devices, which can be toggled **ON/OFF** with smoo
 - Clean separation of UI and logic.
 
 ---
-
 
 ## Installation
 
